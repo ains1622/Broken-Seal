@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d98f268328f558b43b842f8e5641f368, type: 3}
+  m_Name: Garlicchara
+  m_EditorClassIdentifier: 
+  icon: {fileID: 8796790637384536165, guid: 0f3f2919955407546b75696978ee0e57, type: 3}
+  controller: {fileID: 9100000, guid: 6f21269491799b04a9a94eeefc231424, type: 2}
+  name: Gennaro
+  startingWeapon: {fileID: 11400000, guid: 9ec302da6fed928428e7470ed8ec142c, type: 2}
+  stats:
+    maxHealth: 90
+    recovery: 0
+    armor: 0
+    moveSpeed: 0.9
+    might: 1
+    area: 1
+    speed: 1
+    duration: 1
+    amount: 0
+    cooldown: 1
+    luck: 1
+    growth: 1
+    greed: 1
+    curse: 1
+    magnet: 1.6
+    revival: 0

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d42ae9f8a4a4dc54a973207295fb7d0c, type: 3}
+  m_Name: Evolved Knife
+  m_EditorClassIdentifier: 
+  icon: {fileID: -8682506659099833999, guid: e95683f5caf29a64fb353e70761fa961, type: 3}
+  maxLevel: 1
+  evolutionData: []
+  behaviour: ProyectileWeapon
+  baseStats:
+    name: Knife
+    description: Fires quickly in the faced direction
+    projectilePrefab: {fileID: 5429130679485022526, guid: 2e992f3449288e948afe06e12d1c2127, type: 3}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 3
+    damage: 10
+    damageVariance: 2
+    area: 0.3
+    speed: 4
+    cooldown: 0.8
+    proyectileInterval: 0.1
+    knockback: 1
+    number: 2
+    piercing: 2
+    maxInstances: 70
+  linearGrowth: []
+  randomGrowth: []

@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d42ae9f8a4a4dc54a973207295fb7d0c, type: 3}
+  m_Name: Knife
+  m_EditorClassIdentifier: 
+  icon: {fileID: -1324318189544361227, guid: e95683f5caf29a64fb353e70761fa961, type: 3}
+  maxLevel: 3
+  evolutionData:
+  - name: Knife + Spinach
+    condition: 0
+    consumes: 2
+    evolutionLevel: 3
+    catalysts:
+    - itemType: {fileID: 11400000, guid: 7c02a3015fc00ac4ba4787491d93e684, type: 2}
+      level: 5
+    outcome:
+      itemType: {fileID: 11400000, guid: f9050d62a01c55245a144ebcda0bc7ca, type: 2}
+      level: 1
+  behaviour: ProyectileWeapon
+  baseStats:
+    name: Knife
+    description: Fires quickly in the faced direction
+    projectilePrefab: {fileID: 5429130679485022526, guid: 4a7824f5b30e82948b9dc64c3e409055, type: 3}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 3
+    damage: 6.5
+    damageVariance: 2
+    area: 0.2
+    speed: 4
+    cooldown: 1
+    proyectileInterval: 0.1
+    knockback: 0.5
+    number: 1
+    piercing: 1
+    maxInstances: 70
+  linearGrowth:
+  - name: Level 2
+    description: Fires 1 more proyectile.
+    projectilePrefab: {fileID: 5429130679485022526, guid: 4a7824f5b30e82948b9dc64c3e409055, type: 3}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    proyectileInterval: 0
+    knockback: 0
+    number: 1
+    piercing: 0
+    maxInstances: 0
+  - name: Level 3
+    description: Fires 1 more proyectile. Base damage up by 5.
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 5
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    proyectileInterval: 0
+    knockback: 0
+    number: 1
+    piercing: 0
+    maxInstances: 0
+  randomGrowth: []
